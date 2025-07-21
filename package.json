@@ -1,0 +1,25 @@
+{
+  "name": "claude-solana-mcp",
+  "version": "1.0.0",
+  "description": "MCP server that provides Claude access to Solana RPC methods",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts"
+  },
+  "keywords": ["mcp", "solana", "rpc", "claude"],
+  "author": "web3smith",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "@solana/web3.js": "^1.95.5",
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}

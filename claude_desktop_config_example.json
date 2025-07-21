@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "solana": {
+      "command": "node",
+      "args": ["/home/mergen/projects/claude-solana-mcp/dist/index.js"],
+      "env": {
+        "SOLANA_RPC_URL": "https://api.mainnet-beta.solana.com"
+      }
+    }
+  }
+}
